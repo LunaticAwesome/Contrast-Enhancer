@@ -4,8 +4,6 @@
 #include <cmath>
 #include <chrono>
 
-#pragma GCC optimize ("O3")
-
 using namespace std;
 
 #define RUN_TYPE static
@@ -65,7 +63,7 @@ int main(int argc, char *argv[]) {
         width *= 3;
         count *= 3;
     }
-    unsigned char *picture = (unsigned char *) malloc(width * height * sizeof(unsigned char *));
+    auto *picture = (unsigned char *) malloc(width * height * sizeof(unsigned char *));
     fread(picture, 1, count, inputPicture);
     fclose(inputPicture);
     auto begin = std::chrono::high_resolution_clock::now();
