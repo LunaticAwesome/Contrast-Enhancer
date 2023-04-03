@@ -22,5 +22,6 @@
 Коэффициент 0.01, результат и тест конвертированы в jpg.
 
 Исходная картинка:
-
+![Исходная картинка](https://github.com/LunaticAwesome/Contrast-Enhancer/blob/main/example.jpg)
 Результат:
+![Результат](https://github.com/LunaticAwesome/Contrast-Enhancer/blob/main/out.jpg)
